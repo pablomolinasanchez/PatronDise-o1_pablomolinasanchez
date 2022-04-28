@@ -20,7 +20,7 @@ public class Email {
 
 	@Override
 	public String toString() {
-		return "from= " + from + ", subject= " + subject + ", date= " + date.toString() + ", priority= " + priority + ", text= "
+		return "from: " + from + ", subject: " + subject + ", date: " + date.toString() + ", priority: " + priority + ", text: "
 				+ text + ".";
 	}
 }
